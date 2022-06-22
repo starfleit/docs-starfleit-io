@@ -6,6 +6,7 @@ theme = "hugo-book"
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
+sectionPagesMenu = "main"
 
 # Needed for mermaid/katex shortcodes
 [markup]
