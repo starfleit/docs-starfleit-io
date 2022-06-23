@@ -2,6 +2,7 @@
 bookFlatSection: true
 type: docs
 title: About
+weight: 10
 ---
 
 # About

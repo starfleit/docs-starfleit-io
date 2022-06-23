@@ -9,7 +9,7 @@ bookFlatSection: true
 
 ### Provide Liquidity
 
-Send user's asset to a Starfleit contract in order to provide liquidity.<br />
+Send user's asset to a STARFLEIT contract in order to provide liquidity.<br />
 **NOTE: You should [allow your allowance]({{< relref "/docs/reference/token" >}}) of the token before providing liquidity!**
 
 The asset can be both a contract-based token and a native token. It can be distinguished by the key under `info`: `token` or `native_token`.
