@@ -6,7 +6,7 @@ weight: 11
 
 # Trading Fees
 
-Each liquidity pool for allowlisted asset pair has **LP Commission** rates paid as a trading fee outside of the spread algorithmic price-making determines. In Starfleit, LP Commission is fixed at *0.3%* and is deducted from the trader's received asset of the transaction.
+Each liquidity pool for allowlisted asset pair has **LP Commission** rates paid as a trading fee outside of the spread algorithmic price-making determines. In STARFLEIT, LP Commission is fixed at *0.3%* and is deducted from the trader's received asset of the transaction.
 
 {{< katex display >}}\text{received} = B_{\text{out}}(1- \text{fee}_{\text{LP}}){{< /katex >}}
 

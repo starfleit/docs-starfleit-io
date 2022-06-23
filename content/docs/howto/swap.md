@@ -5,9 +5,9 @@ bookFlatSection: true
 
 # Swap
 
-Swap in Starfleit works as same as trade in other exchanges. The prices of centralized exchanges for both stock and cryptocurrency move by price bidding system, and supply and demand. These prices change in millisecond intervals, and the market carries out real-time transactions. In contrast, immediate execution of transaction becomes almost impossible due to block time when it comes to the exchange on blockchain.
+Swap in STARFLEIT works as same as trade in other exchanges. The prices of centralized exchanges for both stock and cryptocurrency move by price bidding system, and supply and demand. These prices change in millisecond intervals, and the market carries out real-time transactions. In contrast, immediate execution of transaction becomes almost impossible due to block time when it comes to the exchange on blockchain.
 
-Therefore, Starfleit adopted a different pricing approach - algorithmic pricing by tracking the ratio of the paired asset within the liquidity pool. To learn more about this approach, please refer to [mechanism section]({{< relref "/docs/introduction/mechanism" >}}).
+Therefore, STARFLEIT adopted a different pricing approach - algorithmic pricing by tracking the ratio of the paired asset within the liquidity pool. To learn more about this approach, please refer to [mechanism section]({{< relref "/docs/introduction/mechanism" >}}).
 
 ## Prerequisites
 
@@ -47,9 +47,9 @@ To learn more about the general rules for `handle-msg`, please refer to this [li
 }
 ```
 
-`swap.offer_asset` represents your source asset. It is mandatory to acknowledge the decimal of the token setting when entering the value of `swap.offer_asset.amount` for an accurate transaction you want. For instance, the decimal of FET is 18, and it implies the value `10` of `swap.offer_asset.amount` expresses '10 x 10^-18` in the actual amount. That means you should multiply with the matching value, `10^(decimal)`. And the number can vary by other navie or IBC tokens but it cannot be detected if it is not acknowloged by human and the person doesn't register. Please find Starfleit team on [#starfleit channel on Fetch.ai Discord](https://bit.ly/3ra5uMI)
+`swap.offer_asset` represents your source asset. It is mandatory to acknowledge the decimal of the token setting when entering the value of `swap.offer_asset.amount` for an accurate transaction you want. For instance, the decimal of FET is 18, and it implies the value `10` of `swap.offer_asset.amount` expresses '10 x 10^-18` in the actual amount. That means you should multiply with the matching value, `10^(decimal)`. And the number can vary by other navie or IBC tokens but it cannot be detected if it is not acknowloged by human and the person doesn't register. Please find STARFLEIT team on [#STARFLEIT channel on Fetch.ai Discord](https://bit.ly/3ra5uMI)
 
-`swap.to` is the destination token address. You don't need to enter the amount to swap into since Starfleit calculates the price algorithmically.
+`swap.to` is the destination token address. You don't need to enter the amount to swap into since STARFLEIT calculates the price algorithmically.
 
 After filling them out, you may choose to change it into an inline string (not necessary if you can make it with multiline):
 
