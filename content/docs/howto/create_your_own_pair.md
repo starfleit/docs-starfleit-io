@@ -5,12 +5,12 @@ bookFlatSection: true
 
 # Create Your Own Pair
 
-PLEASE CHECK [HERE](#important---only-for-terra-20) for additional action on Terra 2.0
+PLEASE CHECK [HERE](#important) for additional action on Fetch.ai
 
 ## Instantiation by Contract Address
 
 You should use the STARFLEIT token factory contract.
-- fetchhub-4: `fetch1kmag3937lrl6dtsv29mlfsedzngl9egv5c3apnr468q50gu04zrqea398u`
+- dorado-1 testnet: `fetch1kmag3937lrl6dtsv29mlfsedzngl9egv5c3apnr468q50gu04zrqea398u`
 
 The JSON message format is as follows:
 

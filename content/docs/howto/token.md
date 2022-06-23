@@ -58,7 +58,7 @@ Then, the CLI reads:
 fetchd tx wasm instantiate <token_bin_code> '{"name": "yout_token_name", "symbol": "SYMBOL", "decimals": 6, ... }' --from your_key
 ```
 
-After confirmation, your token is minted on the Terra network!
+After confirmation, your token is minted on the Fetch.ai network!
 
 With your tx hash, you may query the tx:
 ```bash

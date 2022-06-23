@@ -25,7 +25,7 @@ fetchd query wasm contract-state smart fetch1kmag3937lrl6dtsv29mlfsedzngl9egv5c3
 ex)
 
 ```URL
-https://rest-dorado.fetch.ai/cosmwasm/wasm/v1/contract/terra1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjqxl5qul/smart/eyJwYWlycyI6e319
+https://rest-dorado.fetch.ai/cosmwasm/wasm/v1/contract/fetch1xjn7ljgkzn8agscr8g6xnnhn3azu3kfkuga8uqufr36sc75f8s0sxyhnyq/smart/eyJwYWlycyI6e319
 ```
 
 ## How to Organize a Query Message

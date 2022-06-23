@@ -22,7 +22,7 @@ A **liquidity provider** adds equal value of two assets to their corresponding S
 ***
 # STARFLEIT Web Application
 
-**STARFLEIT Web Application** is the official web front-end interface for swapping Fetch.ai native tokens and CW20 tokens. The web application is located [here](https://app.STARFLEIT.io).
+**STARFLEIT Web Application** is the official web front-end interface for swapping Fetch.ai native tokens and CW20 tokens. The web application is located [here](https://app.starfleit.io).
 
 A wallet is required to interact with STARFLEIT Web Application.
 > For web, 
