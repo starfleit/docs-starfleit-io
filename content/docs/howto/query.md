@@ -1,5 +1,5 @@
 ---
-weight: 23
+weight: 24
 bookFlatSection: true
 ---
 
@@ -8,9 +8,11 @@ bookFlatSection: true
 ## How to Send a Query Request
 
 - Command line
+
 ```bash
 fetchd query wasm contract-state smart <contract_address> '<JSON_formed_message>'
 ```
+
 ex)
 
 ```bash
@@ -18,6 +20,7 @@ fetchd query wasm contract-state smart fetch1kmag3937lrl6dtsv29mlfsedzngl9egv5c3
 ```
 
 - RESTFul API
+
 ```URL
 <light_clinet_address>/cosmwasm/wasm/v1/contract/<contract_address>/smart/<JSON_formed_message_with_base64>
 ```
@@ -43,17 +46,20 @@ pub enum QueryMsg {
 ```
 
 This is one of the messages
+
 ```rust
 Balance { address: <Addr> }
 ```
 
 You may change it into snake case and add within `{}` as like below:
+
 ```json
 {"balance": {"address": "<Addr>"}}
 ```
 
 `Addr` is a type, which is bech32-encoded address `fetch` prefixed.<br />
 Here is an example:
+
 ```json
 {"balance": {"address": "fetch1wxe503thjmapngtnyqarxrc4jy80vf800vf0cy"}}
 ```

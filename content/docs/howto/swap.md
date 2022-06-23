@@ -1,5 +1,5 @@
 ---
-weight: 24
+weight: 21
 bookFlatSection: true
 ---
 
@@ -82,9 +82,11 @@ fetchd tx wasm execute <contract-address> <handle-msg> <coins>
 ```
 
 In the CLI,
+
 - `contract-address`: Enter **token address**
 
 In the message:
+
 - `send.contract`: Enter **pair address**
 - `send.amount`: The amount of the origin token to swap from
 

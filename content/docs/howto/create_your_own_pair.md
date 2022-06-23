@@ -1,5 +1,5 @@
 ---
-weight: 22
+weight: 23
 bookFlatSection: true
 ---
 
@@ -10,6 +10,7 @@ PLEASE CHECK [HERE](#important) for additional action on Fetch.ai
 ## Instantiation by Contract Address
 
 You should use the STARFLEIT token factory contract.
+
 - dorado-1 testnet: `fetch1kmag3937lrl6dtsv29mlfsedzngl9egv5c3apnr468q50gu04zrqea398u`
 
 The JSON message format is as follows:

@@ -1,6 +1,6 @@
 ---
 title: Mint your own token
-weight: 21
+weight: 22
 bookFlatSection: true
 ---
 
@@ -61,11 +61,13 @@ fetchd tx wasm instantiate <token_bin_code> '{"name": "yout_token_name", "symbol
 After confirmation, your token is minted on the Fetch.ai network!
 
 With your tx hash, you may query the tx:
+
 ```bash
 fetchd query tx EF2REFAWE234A2EFV....
 ```
 
 Then, you may find the address of your contract from:
+
 ```json
 {
     "key": "contract_address",
@@ -192,7 +194,7 @@ pub enum Cw20QueryMsg {
 pub struct MigrateMsg {}
 ```
 
-Then, compile your contract using it. 
+Then, compile your contract using it.
 
 ```bash
 docker run --rm -v "$(pwd)":/code \
