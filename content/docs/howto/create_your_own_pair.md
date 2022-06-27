@@ -44,5 +44,4 @@ Then, you may execute the contract with the organized JSON above.
 
 ## IMPORTANT
 
-- PLEASE BE AWARE that the transaction would work only if you send the tiny number (like 0.000001) of native or IBC tokens in case of creating a pair that contains them. The contract uses the received token to validate whether it exists or not.
 - If you want to register a brand-new Fetch.ai native or IBC token that are not listed yet, please find STARFLEIT team on [#STARFLEIT channel on Fetch.ai Discord](https://bit.ly/3ra5uMI) (for metadata)
