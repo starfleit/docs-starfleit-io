@@ -7,5 +7,5 @@
 
 ## dorado-1 Testnet
 
-- Token code id: 1465
+- Token code id: 1463
 - Factory contract address: `fetch1kmag3937lrl6dtsv29mlfsedzngl9egv5c3apnr468q50gu04zrqea398u`
