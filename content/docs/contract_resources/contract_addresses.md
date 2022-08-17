@@ -2,8 +2,8 @@
 
 ## fetchhub-4 Mainnet
 
-- Token code id: 21
-- Factory contract address: `fetch1slz6c85kxp4ek5ufmcakfhnscv9r2snlemxgwz6cjhklgh7v2hms8rgt5v`
+- Token code id:
+- Factory contract address: ``
 
 ## dorado-1 Testnet
 
